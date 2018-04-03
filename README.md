@@ -15,7 +15,7 @@ All files are generated from the GENET approach which incorporate epigenomic inf
 
 Quick start:
 
-   Please check the file RUNexample.txt (https://bitbucket.org/zwerhu/genet/src/8cce6e511df6b652ea1847849e7a0ab39218d0d1/RUNexample.txt?at=master&fileviewer=file-view-default)
+   Please check the file RUNexample.txt (https://github.com/zwerhu/GENET/blob/master/RUNexample.txt)
 
 
 ++++++++++++++++++++
