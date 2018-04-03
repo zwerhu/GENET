@@ -1,0 +1,73 @@
+This document give a full version of the example.
+
+==================================================
+
+The files are adapted from GENET training process using CMC data. For briefness, only data regarding chromosome 22 is given.
+The training process for all other chromosomes are the same and would be proceeded in parallel.
+
+For further questions, please contact Wen Zhang (zhang.wen81@gmail.com), Panos Roussos (panagiotis.roussos@mssm.edu)
+
+For GENET database, please visit: http://icahn.mssm.edu/genet
+
+==================================================
+
+Steps:
+
+1. Go to example directory and unzip the files:
+	cd example
+	unzip example.zip
+
+2. It is optional to either keep example.zip or not.
+   The list of files:
+
+ 73M example.zip
+ 68B model_by_chr
+ 18B chr22.out
+ 972K LPFCBRN_Anno_prior_rsid.chr22.RDS
+ 2.0M CMC.snps.anno.chr22.RDS
+ 30K gencode.v27.unified.chr22.RDS
+ 89M CMC.new.snps.chr22.txt
+ 55M CMC.expr.RDS
+ 8K CMC_CV_elasticNet2_training_bezier.R
+ 16K genoCMCgroup.txt
+ 520B train_model.R
+ 429B submittrainmodels22.sh
+ 1.0M gencode.unif.genes.parsed.RDS
+
+
+3. To run the example:
+	Rscript ./train_model.R CMC467 CMC.expr.RDS CMC.new.snps.chr22.txt gencode.v27.unified.chr22.RDS CMC.snps.anno.chr22.RDS DLPFCBRN_Anno_prior_rsid.chr22.RDS 10 0.5 ./model_by_chr/ 22 Ref 1e6 > chr22.out
+
+4. In the model_by_chr folder, all intermediate files will be generated.
+
+==================================================
+
+Description:
+
+The format of genotype, gene expression, gene/snp annotation files is similar to those used in PrediXcan.
+
+The snp prior files should be generated in prior, and the format is as following:
+
+Chr      Pos    Prior RSID_dbSNP137                    Annotation
+22 41197433 2.625163      rs118026    BRN_DL_PRFRNTL_CRTX_8_TxWk
+22 39200643 0.000000     rs4821828                            NA
+22 39172111 4.389168     rs4821822  BRN_DL_PRFRNTL_CRTX_14_EnhA2
+22 40556101 2.625163    rs11705389    BRN_DL_PRFRNTL_CRTX_8_TxWk
+22 33730469 2.625163    rs28645138    BRN_DL_PRFRNTL_CRTX_8_TxWk
+22 18910479 1.094205    rs13058335  BRN_DL_PRFRNTL_CRTX_18_EnhAc
+22 32657397 0.000000     rs5998355                            NA
+22 39499902 0.000000      rs139317                            NA
+22 48715226 0.000000     rs7286080                            NA
+22 18047231 1.094205     rs2284827  BRN_DL_PRFRNTL_CRTX_18_EnhAc
+22 50819161 2.625163   rs112350524    BRN_DL_PRFRNTL_CRTX_8_TxWk
+22 44480513 0.000000      rs910011                            NA
+22 48318436 0.000000      rs910771                            NA
+22 30407652 2.625163       rs41161    BRN_DL_PRFRNTL_CRTX_8_TxWk
+22 47318675 0.000000     rs5767413                            NA
+22 47304870 2.625163     rs6009047    BRN_DL_PRFRNTL_CRTX_8_TxWk
+22 46012876 0.000000    rs75378351                            NA
+22 46012874 0.000000    rs78975114                            NA
+22 41492653 2.768556     rs9607772 BRN_DL_PRFRNTL_CRTX_12_TxEnhW
+22 44340904 2.625163     rs2294915    BRN_DL_PRFRNTL_CRTX_8_TxWk
+
+

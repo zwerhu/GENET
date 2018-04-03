@@ -1,0 +1,58 @@
+PGC2_SCZ|Schizophrenia|Neuropsychiatric
+AD|Alzheimer's disease|Neuropsychiatric
+iPSYCH_ASD|Autism spectrum disorder|Neuropsychiatric
+iPSYCH_ADHD_EUR|Attention Deficit Hyperactivity disorder|Neuropsychiatric
+ANX_CC|Anxiety, case/control|Neuropsychiatric
+ANX_FS|Anxiety, factor scores|Neuropsychiatric
+TAG_CPD|Smoking, cigarettes/day|Neuropsychiatric
+TAG_ONSET|Smoking, age of onset|Neuropsychiatric
+TAG_EVRSMK|Smoking, ever vs. never|Neuropsychiatric
+TAG_FORMER|Smoking, current vs. former|Neuropsychiatric
+EXTRAVERSION|Extraversion|Neuropsychiatric
+WellBeing_Neuroticism|Neuroticism|Neuropsychiatric
+WellBeing_DS|Depressive symptoms|Neuropsychiatric
+WellBeing_SWB|Subjective well being|Neuropsychiatric
+EduYear|Years of education|Neuropsychiatric
+CD|Crohn's disease|Autoimmune
+UC|Ulcerative colitis|Autoimmune
+IBD|Inflammatory bowel disease|Autoimmune
+ActDerm|Atopic dermatitis|Autoimmune
+RA|Rheumatoid arthritis|Autoimmune
+SLE|Systemic lupus erythematosus|Autoimmune
+CAD_ADD|Coronary artery disease|CAD
+MI_ADD|Myocardial infarction|CAD
+LIPIDS_HDL|High density lipoprotein|Lipids
+LIPIDS_LDL|Low density lipoprotein|Lipids
+LIPIDS_TC|Total cholesterol|Lipids
+LIPIDS_TG|Triglycerides|Lipids
+T2D|Diabetes, type 2|Diabetes
+FastingGlucose|Glucose, fasting|Diabetes
+HBA1C|Glycated hemoglobin|Diabetes
+FastingInsulin|Insulin, fasting|Diabetes
+HOMAIR|Insulin resistance, HOMA|Diabetes
+HOMAB|Beta-cell function, HOMA|Diabetes
+Man_FastingGlucose|Glucose, fasting 2|Diabetes
+Man_FastingInsulin|Insulin, fasting 2|Diabetes
+BMI|BMI|Antropometric/development
+GIANT_WCadjBMI|BMI, waist adjusted|Antropometric/development
+GIANT_HIPadjBMI|BMI, hip adjusted|Antropometric/development
+GIANT_WHRadjBMI|BMI, waist/hip ratio adjusted|Antropometric/development
+GIANT_WC|Waist circumference|Antropometric/development
+GIANT_HIP|Hip circumference|Antropometric/development
+GIANT_WHR|Waist/hip ratio|Antropometric/development
+Glucose_BMI|Glucose, 2hr tolerance test|Antropometric/development
+HEIGHT|Height|Antropometric/development
+EGG_OBESITY|Childhood obesity|Antropometric/development
+EGG_BMI|Childhood BMI|Antropometric/development
+EGG_BW|Birth weight|Antropometric/development
+EGG_HC|Head circumference |Antropometric/development
+EGG_BL|Birth length|Antropometric/development
+MENARCHE|Menarche, age at|Antropometric/development
+MENOPAUSE|Menopause, age at|Antropometric/development
+FEMORAL_BMD|Bone mineral density, femoral|Bone mineral density
+FOREARM_BMD|Bone mineral density, forearm|Bone mineral density
+SPINE_BMD|Bone mineral density, spine|Bone mineral density
+eGFRcrea|Kidney, eGFR|Kidney
+UACR|Kidney, urinary albumin/creatinine|Kidney
+MA|Kidney, microalbuminuria|Kidney
+CKD_smr|Kidney, chronic disease|Kidney
