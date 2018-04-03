@@ -1,5 +1,10 @@
 # GENET pipeline
  
+++++++++++++++++++++
+
+Contact: Wen Zhang (zhang.wen81@gmail.com)
+
+++++++++++++++++++++
 
 This repository provides GENET (From GENotype and Epigenome to Transcriptome) scripts and files.
  
