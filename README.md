@@ -39,7 +39,7 @@ References:
 
 The cross validation (CV) training process using prior information is included in the script:
 
-CMC_CV_elasticNet2_training_bezier.R
+CMC_CV_elasticNet2_training_bezier.R (included in example.zip)
 
 or check the files after unzip the example.zip in example folder (refer to RUNexample.txt)
 
