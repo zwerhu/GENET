@@ -13,8 +13,8 @@ For GENET database, please visit: http://icahn.mssm.edu/genet
 
 Steps:
 
-1. Go to example directory and unzip the files:
-	cd example
+1. Go to the directory where example.zip was downloaded and unzip the files, for example:
+	cd DIRECTORY
 	unzip example.zip
 
 2. It is optional to either keep example.zip or not.
