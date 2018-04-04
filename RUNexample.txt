@@ -2,7 +2,7 @@ This document give a full version of the example.
 
 ==================================================
 
-The files are adapted from GENET training process using CMC data. For briefness, only part of the data regarding chromosome 22 is given.
+The files are adapted from GENET training process using CMC data. For briefness, a small part of the data regarding chromosome 22 is given.
 The training process for all other chromosomes are the same and would be proceeded in parallel.
 
 For further questions, please contact Wen Zhang (zhang.wen81@gmail.com), Panos Roussos (panagiotis.roussos@mssm.edu)
