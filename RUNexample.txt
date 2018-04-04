@@ -20,14 +20,14 @@ Steps:
 2. It is optional to either keep example.zip or not.
    The list of files:
 
- 73M example.zip
+ 20M example.zip
  68B model_by_chr
  18B chr22.out
  972K LPFCBRN_Anno_prior_rsid.chr22.RDS
  2.0M CMC.snps.anno.chr22.RDS
  30K gencode.v27.unified.chr22.RDS
- 89M CMC.new.snps.chr22.txt
- 55M CMC.expr.RDS
+ 18M CMC.new.snps.chr22.txt
+ 13M CMC.expr.RDS
  8K CMC_CV_elasticNet2_training_bezier.R
  16K genoCMCgroup.txt
  520B train_model.R
