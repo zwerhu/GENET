@@ -18,7 +18,7 @@ Steps:
 	unzip example.zip
 
 2. It is optional to either keep example.zip or not.
-   The list of files:
+   The list and size of each file:
 
  20M example.zip
  68B model_by_chr
