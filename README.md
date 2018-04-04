@@ -65,3 +65,7 @@ STEPS:
 3. Run the GENET pipeline.
 
 4. Compile intermediate output files and get the predictors (refer to https://github.com/hakyimlab/PredictDBPipeline/blob/master/joblogs/example/post_process.py). 
+
+++++++++++++++++++++
+
+Any questions: please feel free to contact me.
