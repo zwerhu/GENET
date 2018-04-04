@@ -68,4 +68,4 @@ STEPS:
 
 ++++++++++++++++++++
 
-Any questions: please feel free to contact me.
+Any questions: please feel free to contact us.
