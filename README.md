@@ -29,7 +29,7 @@ References:
  
 1. For GENET online database: http://icahn.mssm.edu/genet 
 
-2. For PrediXcan pipeline: https://github.com/hakyim/PrediXcan
+2. For PrediXcan pipeline: https://github.com/hakyim/PrediXcan and PredictDB pipeline: https://github.com/hakyimlab/PredictDBPipeline (Updated version: https://github.com/hakyimlab/PredictDB_Pipeline_GTEx_v7)
 
 3. For qtlBHM pipeline: https://github.com/rajanil/qtlBHM
 
