@@ -3,7 +3,7 @@
 # snp_prior_RDS file is needed to store the priors, which is rescaled to penalty factors
 
 argv <- commandArgs(trailingOnly = TRUE)
-source("GENET_Tissue_Wide_CV_elasticNet_penalty.R")
+source("CMC_CV_elasticNet2_training_bezier.R")
 
 study <- argv[1]
 expression_RDS <- argv[2]
