@@ -9,6 +9,7 @@ For further questions, please contact Wen Zhang (zhang.wen81@gmail.com), Panos R
 
 For GENET database, please visit: http://icahn.mssm.edu/genet
 
+
 ==================================================
 
 Steps:
@@ -40,6 +41,16 @@ Steps:
 
 4. In the model_by_chr folder, all intermediate files will be generated.
 
+==================================================
+
+Dependencies:R packages
+    - glmnet
+    - methods
+    - dplyr
+    - reshape2
+If you have access to install/update packages in R run the following script to install:
+    Rscript install_required_packages.R
+    
 ==================================================
 
 Description:
